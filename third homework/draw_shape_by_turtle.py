@@ -12,14 +12,3 @@ for i in range(loops_range):
     if (i == int(step*(2*edges_start+step-1)/2 -1)):
         step += 1
         current_shape += 1
-
-for i in range(len(colors)):
-    for j in range(4):
-        if j%2 == 0:
-            forward(50)
-            left(90)
-        else:
-            forward(100)
-            left(90)
-        forward(200)
-    
